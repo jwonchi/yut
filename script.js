@@ -28,7 +28,7 @@ function displayYutResults(yutResults) {
             yutElement.style.backgroundColor = "#ffd700"; // 앞면 색상
         } else {
             yutElement.style.transform = "rotateY(180deg)"; // 뒷면
-            yutElement.innerText = 'X';
+            yutElement.innerHTML = 'X<br>X<br>X<br>X';
             yutElement.style.backgroundColor = "#8b4513"; // 뒷면 색상
         }
     }
