@@ -20,7 +20,7 @@ function displayYutResults(yutResults) {
         if (yutResults[i]) {
             yutElement.style.transform = "rotateY(0deg)"; // 앞면
             if(i==0){
-                yutElement.innerText = '○';
+                yutElement.innerText = 'O';
             
             } else {
                 yutElement.innerText = '';
@@ -28,7 +28,7 @@ function displayYutResults(yutResults) {
             yutElement.style.backgroundColor = "#ffd700"; // 앞면 색상
         } else {
             yutElement.style.transform = "rotateY(180deg)"; // 뒷면
-            yutElement.innerText = 'X<br>X<br>X<br>X';
+            yutElement.innerText = 'X';
             yutElement.style.backgroundColor = "#8b4513"; // 뒷면 색상
         }
     }
