@@ -8,7 +8,7 @@ document.getElementById('throw-btn').addEventListener('click', () => {
 function throwYut() {
     const yutResults = [];
     for (let i = 0; i < 4; i++) {
-        const isFront = Math.random() < 0.5; // 50% 확률로 앞면(1) 또는 뒷면(0)
+        const isFront = Math.random() < 0.61; // 50% 확률로 앞면(1) 또는 뒷면(0)
         yutResults.push(isFront);
     }
     return yutResults;
