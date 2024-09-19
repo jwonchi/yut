@@ -39,16 +39,16 @@ function calculateResult(yutResults) {
     switch (countFront) {
         case 1:
             if (yutResults[0]) {
-                return '빽도';
+                return '빽도(-1)';
             }
-            return '도';
+            return '도(1)';
         case 2:
-            return '개';
+            return '개(2)';
         case 3:
-            return '걸';
+            return '걸(3)';
         case 4:
-            return '윷';
+            return '윷(4)';
         case 0:
-            return '모';
+            return '모(5)';
     }
 }
